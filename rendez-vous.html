@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Réservez votre rendez-vous chez CARE BEAUTY BY MARY à Abidjan en envoyant votre demande sur WhatsApp.">
+  <meta name="theme-color" content="#171218">
+  <title>Rendez-vous — CARE BEAUTY BY MARY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span>Un moment rien que pour vous</span><span>Angré 8ème Tranche · Abidjan</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="CARE BEAUTY BY MARY, accueil"><span class="brand-mark">C<span>B</span></span><span class="brand-name">CARE BEAUTY <small>BY MARY</small></span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="services.html">Nos soins</a><a class="active" href="rendez-vous.html">Rendez-vous</a><a href="avis.html">Avis</a><a class="nav-cta" href="#reservation">Réserver une séance <span>↗</span></a></nav>
+  </header>
+  <main>
+    <section class="page-hero booking-page-hero">
+      <p class="eyebrow"><span class="eyebrow-line"></span> Votre parenthèse beauté</p>
+      <h1>Un rendez-vous<br><em>pour vous.</em></h1>
+      <p>Indiquez-nous vos préférences. Votre demande sera préparée dans un message WhatsApp, prêt à être envoyé.</p>
+      <div class="page-hero-orb"></div>
+    </section>
+    <section class="booking-layout section-pad" id="reservation">
+      <div class="booking-info">
+        <p class="eyebrow">Nous serons ravies de vous accueillir</p>
+        <h2>Un instant de douceur,<br><em>à votre rythme.</em></h2>
+        <p>Remplissez le formulaire. WhatsApp s'ouvrira avec les informations saisies pour que vous puissiez envoyer votre demande directement à l'institut.</p>
+        <div class="contact-line"><span class="contact-icon">⌖</span><div><strong>Notre institut</strong><p>Angré 8ème Tranche, Abidjan<br>92X9+4WF</p></div></div>
+        <div class="contact-line"><span class="contact-icon">◷</span><div><strong>Nos horaires</strong><p>Mardi à dimanche : 09h00 – 19h00<br>Lundi : fermé</p></div></div>
+        <div class="contact-line"><span class="contact-icon">✆</span><div><strong>Par téléphone</strong><p>+225 07 05 02 17 80</p></div></div>
+        <div class="rating-box"><div class="stars">★★★★★</div><strong>5,0 / 5</strong><span>Basé sur 4 avis partagés</span></div>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <div class="form-heading"><span>CARE BEAUTY BY MARY</span><h2>Votre demande</h2><p>Les champs marqués * sont nécessaires.</p></div>
+        <label for="name">Votre nom complet *</label><input id="name" name="name" type="text" placeholder="Ex. Marie Kouassi" required>
+        <div class="form-row">
+          <div><label for="phone">Votre téléphone</label><input id="phone" name="phone" type="tel" placeholder="Ex. 07 00 00 00 00"></div>
+          <div><label for="service">Soin souhaité *</label><select id="service" name="service" required><option value="">Choisir un soin</option><option>Soin du visage</option><option>Manucure</option><option>Rituel beauté</option><option>Autre / à conseiller</option></select></div>
+        </div>
+        <div class="form-row">
+          <div><label for="date">Date souhaitée *</label><input id="date" name="date" type="date" required></div>
+          <div><label for="time">Heure souhaitée *</label><select id="time" name="time" required><option value="">Choisir une heure</option><option>09:00</option><option>10:00</option><option>11:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option></select></div>
+        </div>
+        <label for="message">Un détail à nous préciser (facultatif)</label><textarea id="message" name="message" rows="4" placeholder="Parlez-nous de vos envies…"></textarea>
+        <button class="button button-primary form-submit" type="submit">Envoyer ma demande sur WhatsApp <span>↗</span></button>
+        <p class="form-privacy">Votre demande s'ouvre dans WhatsApp. Le rendez-vous sera confirmé par l'institut.</p>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-main"><a class="brand brand-footer" href="index.html"><span class="brand-mark">C<span>B</span></span><span class="brand-name">CARE BEAUTY <small>BY MARY</small></span></a><p>La beauté avec attention.<br>Le bien-être avec élégance.</p><div class="footer-contact"><span>NOUS TROUVER</span><p>Angré 8ème Tranche, Abidjan<br>92X9+4WF, Abidjan</p><a href="tel:+2250705021780">+225 07 05 02 17 80</a></div><div class="footer-hours"><span>HORAIRES</span><p>Mardi – Dimanche<br>09h00 – 19h00<br><small>Lundi : fermé</small></p></div></div><div class="footer-bottom"><a href="avis.html">Lire les avis ↗</a><span>© <span data-year></span> CARE BEAUTY BY MARY</span><span>Une beauté qui vous ressemble.</span><a href="index.html">Retour à l'accueil ↑</a></div></footer>
+  <a class="whatsapp-float" href="#" data-whatsapp aria-label="Contacter CARE BEAUTY BY MARY sur WhatsApp" title="Écrivez-nous sur WhatsApp"><span class="wa-image-ring"><img src="assets/boutton-rond-multicolor.jpg" alt=""></span><span class="wa-label">Réserver sur WhatsApp</span></a>
+</body>
+</html>
